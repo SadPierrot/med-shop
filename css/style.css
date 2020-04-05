@@ -377,8 +377,9 @@ button.btn#track:hover {
   padding: 2.5% 8% 2.5%;
 }
 
-.about-p {
+p.about-p {
   margin-top: 5%;
+  font-size: 24px
 }
 
 
