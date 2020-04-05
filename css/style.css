@@ -290,6 +290,38 @@ margin-left: 0px;
 border-radius: 0% 0% 50% 50%;
 }
 
+.circle-about {
+  width: 300px;
+  height: 50px;
+  background: rgb(142, 34, 34);
+  color: #d6d6d6;
+  font-size: 35px;
+  position: relative;
+  margin-top: -32px;
+  margin-left: 0px;
+  border-radius: 0% 0% 30% 30%;
+  }
+
+@media (max-width: 768px) {
+  .circle-about {
+    width: 120px;
+    height: 50px;
+    background: rgb(142, 34, 34);
+    color: #d6d6d6;
+    font-size: 20px;
+    position: relative;
+    margin-top: -32px;
+    margin-left: 0px;
+    border-radius: 0% 0% 30% 30%;
+    }
+}
+
+@media (max-width: 576px) {
+  a.navbar-brand {
+    font-size: 20px;
+  }
+}
+
 p.instruction {
 margin-top: 70px;
 
@@ -343,6 +375,10 @@ button.btn#track {
 button.btn#track:hover {
   background: rgb(142, 34, 34);
   padding: 2.5% 8% 2.5%;
+}
+
+.about-p {
+  margin-top: 5%;
 }
 
 
